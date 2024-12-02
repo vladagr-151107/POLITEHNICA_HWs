@@ -9,8 +9,8 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-    public String displayPerson(){
-        return firstName + ", " + lastName + ", " + age;
+    public void displayPerson(){
+        System.out.println(firstName + " " + lastName + ", " + age);
     }
     public String getLast(){
         return lastName;
