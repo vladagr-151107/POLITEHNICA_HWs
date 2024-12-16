@@ -1,0 +1,8 @@
+1. How are abstract classes and interfaces the same?
+Both are ways to define a blueprint for other classes.
+Additionally, they require subclasses to implement/extend their methods.
+2. How are abstract classes and interfaces different?
+Interface can have only abstract methods, while abstract class can have abstract and fully defined methods.
+3. Why does it generally make more sense to override the equals method than to overload it?
+Overloading equals() doesn't help much, but it allows us to compare two objects based on their content rather than their memory references, which is the default behavior.
+4. Everything except points 3 and 5 works. It is checked in Main.class
